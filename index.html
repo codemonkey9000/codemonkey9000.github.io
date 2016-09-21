@@ -2,22 +2,42 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="jumbotron">
+  <div class="container">
+    <div class="row text-center">
+      <h2>Engineer | Extrovert | Events</h2>
+      <h3>Basically a Hedgehog</h3>
+      <a class="btn btn-primary" href="#" role="button">See how much I like hedgehogs</a>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row">
+    <figure class="col-sm-6">
+      <a class="img-button" href="/work/">
+        <img src="/images/HITB_work.jpg">
+        <p>Resume</p>
+      </a>
+    </figure>
+    <figure class="col-sm-6">
+      <a class="img-button" href="/etsy/">
+        <img src="/images/Etsy_glasses.jpg">
+        <p>Etsy</p>
+      </a>
+    </figure>
+  </div>
+  <div class="row">
+    <figure class="col-sm-6">
+      <a class="img-button" href="/hobbies/">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
+        <p>Hobbies</p>
+      </a>
+    </figure>
+    <figure class="col-sm-6">
+      <a class="img-button" href="/voice/">
+        <img src="/images/transistor_black_red.jpg">
+        <p>Voice Acting</p>
+      </a>
+    </figure>
+  </div>
+</section>

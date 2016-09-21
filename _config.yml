@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Katherine McAuliffe
+email: kgmcauliffe@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal website for Katherine McAuliffe, engineer, extrovert, and events manager 
+  who codes, crafts, and games on the side. Find out more about her voice acting 
+  career, tech career, and personal projects on this site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://codemonkey9000.gitpages.io" # the base hostname & protocol for your site
+twitter_username: katmccat
+github_username:  codemonkey9000
 
 # Build settings
 markdown: kramdown
