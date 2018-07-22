@@ -5,6 +5,7 @@ body {
 
 header {
   padding: 20px 0;
+  color: #463C37;
 }
 
 header .row,
@@ -23,18 +24,21 @@ header nav {
   justify-content: flex-end;
 }
 
-header p {
+header a {
   padding: 0 20px;
   margin: 0;
+  color: #463C37;
+  font-size: 20px;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('/images/jane-carmona-641186-unsplash.jpg');
+  background-position: top center;
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -42,12 +46,23 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #000;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #000;
+  text-shadow: 1px 1px #fff;
+}
+
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.jumbotron.work {
+  height: 200px;
 }
 
 section .row img {
@@ -58,17 +73,19 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn-primary {
-  border-radius: 2px;
+.btn-hero {
+  border-radius: 5px;
   border: 0px;
-  color: #fbd1d5;
+  color: #000;
   text-shadow: none;
-  background-color: #ffffff;
+  padding: 15px 30px;
+  background-color: rgba(244, 144, 36, 0.9);
+  font-size: 25px
 }
 
-.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+.btn-hero:hover {
+  color: #000;
+  background-color: rgba(244, 144, 36);
 }
 
 .btn-secondary {
